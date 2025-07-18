@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+    --primary: 130 71% 39%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+    --success: 130 71% 39%;
+    --success-foreground: 210 80% 98%;
+    --ring: 215 20.2% 65.1%;
+    --radius: 2.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply box-border selection:bg-darkTeal/20;
+  }
+
+  /* html {
+        overflow-x: clip;
+    } */
+
+  body {
+    @apply overflow-x-clip font-main antialiased bg-background text-foreground;
+  }
+  #root {
+    @apply overflow-x-clip;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-bold;
+  }
+  h4,
+  h5,
+  h6,
+  label {
+    @apply font-semibold;
+  }
+  h1 {
+    @apply text-3xl sm:text-4xl xl:text-5xl font-heading;
+  }
+  h2 {
+    @apply text-2xl sm:text-3xl xl:text-4xl font-heading;
+  }
+  h3 {
+    @apply text-[17px] sm:text-[19px] xl:text-lg;
+  }
+  h4 {
+    @apply text-[15px] sm:text-[17px] xl:text-md;
+  }
+  h5 {
+    @apply text-xs sm:text-sm xl:text-base;
+  }
+  h6 {
+    @apply text-xs sm:text-[13px] xl:text-sm;
+  }
+  label {
+    @apply text-xs sm:text-sm;
+  }
+  .slider-visible-overflow > div {
+    overflow: visible !important;
+  }
+  .slider-visible-overflow-sm > div {
+    @apply !overflow-hidden sm:!overflow-visible;
+  }
+  .selected-value-remove-icon svg {
+    display: none;
+  }
+
+  .carousel-content [role='group'] {
+    @apply !px-4;
+  }
+
+  /* lists */
+  ul li {
+    @apply [&::marker]:!text-current;
+  }
+
+  /* Buttons */
+  button {
+    @apply !transition-all !duration-200 !ease-in-out;
+  }
+  .primary-button {
+    @apply text-white border-none border-white !bg-green rounded-[30px] hover:!bg-green disabled:!bg-disabled active:shadow-inner;
+  }
+  .primary-button:not(:disabled):hover {
+    box-shadow: 4px 5px 7px 0px rgba(0, 0, 0, 0.1);
+  }
+  .outline-button {
+    @apply text-teal !bg-transparent border !border-teal hover:!text-teal hover:!bg-transparent disabled:!text-disabled disabled:!border-disabled active:!bg-teal active:!text-white;
+  }
+  .outline-button:not(:disabled):hover {
+    box-shadow: 4px 5px 7px 0px rgba(0, 0, 0, 0.1);
+  }
+  .secondary-button {
+    @apply text-white border border-white !bg-teal rounded-[30px] hover:!bg-teal hover:border-white disabled:!bg-disabled active:shadow-inner;
+  }
+  .secondary-button:not(:disabled):hover {
+    box-shadow: 4px 5px 7px 0px rgba(0, 0, 0, 0.1);
+  }
+  .submenu-button {
+    @apply text-white border-none !bg-teal rounded-[30px] hover:!bg-green active:!bg-green hover:border-white disabled:!bg-disabled active:shadow-inner;
+  }
+  .counter-button {
+    @apply text-teal border-2 border-teal hover:text-green hover:border-green disabled:text-disabled disabled:border-disabled active:border-green active:text-green;
+  }
+
+  /* Misc */
+  .carousel-content [role='group'].remove-px {
+    @apply !px-1;
+  }
+}
