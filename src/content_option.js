@@ -125,26 +125,18 @@ const dataportfolio = [
   {
     img: imgpro,
     description: `
-    We are an aviation consultancy focused on cargo flights, private charters, and logistics across Africa. 
-    Our services support:
+    We are an aviation consultancy focused on cargo flights, private charters, and logistics across Africa. Our services support government agencies, NGOs, and humanitarian aid (disaster response, refugee support)Healthcare (vaccination campaigns, medical outreach)
+    Education (schools, literacy programs)
+    Environmental protection
+    Human rights advocacy and private clients with reliable, efficient, and secure air transport solutions.
+    We advise on:
+    * Cargo flight strategy and coordination
+    * Private jet and air charter services
+    * Humanitarian and emergency airlift operations
+    * Government and diplomatic flight planning
+    * Ground logistics and customs clearance
 
-    • Government agencies  
-    • NGOs and humanitarian aid (disaster response, refugee support)  
-    • Healthcare (vaccination campaigns, medical outreach)  
-    • Education (schools, literacy programs)  
-    • Environmental protection  
-    • Human rights advocacy  
-    • Private clients  
-
-    We offer reliable, efficient, and secure air transport solutions. We advise on:
-
-    • Cargo flight strategy and coordination  
-    • Private jet and air charter services  
-    • Humanitarian and emergency airlift operations  
-    • Government and diplomatic flight planning  
-    • Ground logistics and customs clearance  
-
-    With deep knowledge of African airspace and strong operator partnerships, we help clients move goods and people safely — even in remote or time-critical situations.
+    With deep knowledge of African airspace and strong operator partnerships, we help clients move goods and people safely  even in remote or time-critical situations.
 
     Our mission is to connect Africa through smart, strategic aviation.
   `,
@@ -154,6 +146,7 @@ const dataportfolio = [
     img: imgpro2,
     description: `Compact Jets 3-5 seats
       Flight price : from 3,000 EUR/h
+
       Cessna Citation Mustang
       Honda Jet
       Embraer Phenom 100 E`,
@@ -163,8 +156,8 @@ const dataportfolio = [
     img: imgpro3,
     description: `
       Light Jets 6-8 seats
-      Flight price: from 4,800
-      EUR/h
+      Flight price: from 4,800 EUR/h
+
       Bombardier Learjet 75
       Embraer Phenom 300
       Cessna Citation XLS
@@ -176,6 +169,7 @@ const dataportfolio = [
     description: `
       Midsize Jets 8-10 seats
       Flight price: from 5,800 EUR/h
+
       Bombardier Challenger 350
       Cessna Citation X
       Gulfstream 280
@@ -186,6 +180,7 @@ const dataportfolio = [
     img: imgpro5,
     description: `Heavy Jets 11-14 seats
                   Flight price: from 7,000 EUR/h
+                  
                   Bombardier Challenger 650
                   Dassault Falcon 900EX
                   Falcon 2000
@@ -208,43 +203,6 @@ const dataportfolio = [
       `,
     link: "#",
   },
-
-  // {
-  //   img: "https://picsum.photos/400/600/?grayscale",
-  //   description:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/300/?grayscale",
-  //   description:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/?grayscale",
-  //   description:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/550/?grayscale",
-  //   description:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/?grayscale",
-  //   description:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
-  // {
-  //   img: "https://picsum.photos/400/700/?grayscale",
-  //   description:
-  //     "The wisdom of life consists in the elimination of non-essentials.",
-  //   link: "#",
-  // },
 ];
 
 const contactConfig = {
