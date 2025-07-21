@@ -180,7 +180,7 @@ const dataportfolio = [
     img: imgpro5,
     description: `Heavy Jets 11-14 seats
                   Flight price: from 7,000 EUR/h
-                  
+
                   Bombardier Challenger 650
                   Dassault Falcon 900EX
                   Falcon 2000
@@ -218,10 +218,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-  github: "https://github.com/IbrahimSalahEldin",
+  // github: "https://www.linkedin.com/in/isabelle-airline-b1a2ba376/",
   facebook: "https://facebook.com",
-  linkedin: "https://www.linkedin.com/in/ibrahim-salah-29850517b/",
-  twitter: "https://twitter.com",
+  linkedin: "https://www.linkedin.com/in/isabelle-airlines-b1a2ba376/",
+  twitter: "https://x.com/IsabelleAirline",
 };
 export {
   meta,

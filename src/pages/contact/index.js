@@ -5,6 +5,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
+import  logo  from "../../assets/images/headerlogo.png";
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
@@ -93,6 +94,11 @@ export const ContactUs = () => {
             </Alert>
           </Col>
           <Col lg="5" className="mb-5">
+            <img
+              src={logo}
+              alt="Logo"
+              style={{ width: "100px", height: "auto", marginBottom: "20px" }}
+            />
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
               <strong>Email:</strong>{" "}
