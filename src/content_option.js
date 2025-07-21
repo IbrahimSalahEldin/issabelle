@@ -4,7 +4,12 @@ import hmazaImage from "./assets/images/projects/hamza (2).png";
 import qnvexImage from "./assets/images/projects/qnvex.png";
 import tripImage from "./assets/images/projects/tripVex.png";
 import mainImg from "./assets/images/image10.png";
-
+import imgpro from "./assets/images/pro1.jpeg";
+import imgpro2 from "./assets/images/pro2.jpeg";
+import imgpro3 from "./assets/images/pro3.jpeg";
+import imgpro4 from "./assets/images/pro4.jpeg";
+import imgpro5 from "./assets/images/pro5.jpeg";
+import imgpro6 from "./assets/images/pro6.jpeg";
 const logotext = "ISABELLE";
 const meta = {
   title: "ISABELLE AIRLINES",
@@ -18,7 +23,7 @@ const introdata = {
     first:
       "Introduced to the President by a Secret Service agent, my first mission began in Malta marked not by ceremony but by a quiet gesture:",
     second: "A kiss on the cheek.",
-    third: "“Welcome to the team.”President Iliescu said.",
+    third: "“Welcome to the team.” President Iliescu said.",
   },
   // description:
   //   "Founder of Isabelle Airlines, specializing in executive private aviation consulting for VIP and government clients. Background in aviation strategy, high-level protocol, and international operations. Passionate about precision, confidentiality, and delivering elite travel experiences.",
@@ -118,38 +123,89 @@ const services = [
 
 const dataportfolio = [
   {
-    img: tawafonaImg,
-    description:
-      "Tawafona is a smart platform that helps pilgrims easily book and manage Hajj and Umrah trips.",
-    link: "https://tawafona.com/en",
-  },
-  {
-    img: nmaImage,
-    description:
-      "nmacool is an online platform offering a wide range of Apple products, tech gadgets, and accessories, along with repair and support services.",
-    link: "https://nmacool.com/en",
-  },
-  {
-    img: qnvexImage,
-    description:
-      "QuanVex is a technology company specializing in innovative software solutions, offering services in web development, cloud solutions, and digital transformation for businesses.",
-    link: "https://www.quanvex.com/",
-  },
-  {
-    img: hmazaImage,
-    description:
-      "Hamza Quran Academy offers online Quran education with personalized lessons, helping students of all ages learn and memorize the Quran in a flexible, interactive, and accessible manner.",
-    link: "https://hamzahquranacademy.com/",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description: "Eljaeza freelancer project (Laravel- mysql - reactjs)",
+    img: imgpro,
+    description: `
+    We are an aviation consultancy focused on cargo flights, private charters, and logistics across Africa. 
+    Our services support:
+
+    • Government agencies  
+    • NGOs and humanitarian aid (disaster response, refugee support)  
+    • Healthcare (vaccination campaigns, medical outreach)  
+    • Education (schools, literacy programs)  
+    • Environmental protection  
+    • Human rights advocacy  
+    • Private clients  
+
+    We offer reliable, efficient, and secure air transport solutions. We advise on:
+
+    • Cargo flight strategy and coordination  
+    • Private jet and air charter services  
+    • Humanitarian and emergency airlift operations  
+    • Government and diplomatic flight planning  
+    • Ground logistics and customs clearance  
+
+    With deep knowledge of African airspace and strong operator partnerships, we help clients move goods and people safely — even in remote or time-critical situations.
+
+    Our mission is to connect Africa through smart, strategic aviation.
+  `,
     link: "#",
   },
   {
-    img: tripImage,
-    description:
-      "Tripvex is a tourism platform that helps travelers discover, plan, and book unique experiences, offering curated tours, accommodations, and activities for a personalized travel adventure.",
+    img: imgpro2,
+    description: `Compact Jets 3-5 seats
+      Flight price : from 3,000 EUR/h
+      Cessna Citation Mustang
+      Honda Jet
+      Embraer Phenom 100 E`,
+    link: "#",
+  },
+  {
+    img: imgpro3,
+    description: `
+      Light Jets 6-8 seats
+      Flight price: from 4,800
+      EUR/h
+      Bombardier Learjet 75
+      Embraer Phenom 300
+      Cessna Citation XLS
+      `,
+    link: "#",
+  },
+  {
+    img: imgpro4,
+    description: `
+      Midsize Jets 8-10 seats
+      Flight price: from 5,800 EUR/h
+      Bombardier Challenger 350
+      Cessna Citation X
+      Gulfstream 280
+      `,
+    link: "#",
+  },
+  {
+    img: imgpro5,
+    description: `Heavy Jets 11-14 seats
+                  Flight price: from 7,000 EUR/h
+                  Bombardier Challenger 650
+                  Dassault Falcon 900EX
+                  Falcon 2000
+                  Gulfstream 450
+                  Embraer Legacy 650
+                `,
+    link: "#",
+  },
+  {
+    img: imgpro6,
+    description: `
+      Long Range Jets 13-18 seats 
+      Flight price: from 9,000 EUR/h
+
+      Global 7500
+      Dassault Falcon 7X
+      Falcon 8X
+      Bombardier Global 6000
+      Gulfstream 650
+      `,
     link: "#",
   },
 
@@ -193,7 +249,7 @@ const dataportfolio = [
 
 const contactConfig = {
   YOUR_EMAIL: "sales@isabelleairlines.com",
-  YOUR_FONE: "(+971)58 196 9927",
+  // YOUR_FONE: "(+971)58 196 9927",
   description:
     "Get in touch for inquiries, collaborations, or to learn more about Isabelle Airlines services.",
   // creat an emailjs.com account
