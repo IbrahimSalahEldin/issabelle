@@ -193,7 +193,7 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "isabelleairline@gmail.com",
+  YOUR_EMAIL: "info@isabelleairlines.com",
   YOUR_FONE: "(+971)58 196 9927",
   description:
     "Get in touch for inquiries, collaborations, or to learn more about Isabelle Airlines services.",
