@@ -16,9 +16,9 @@ const introdata = {
   title: "I’m Isabelle",
   animated: {
     first:
-      "Introduced to the President by a Secret Service agent, her first mission began in Malta marked not by ceremony but by a quiet gesture:",
+      "Introduced to the President by a Secret Service agent, my first mission began in Malta marked not by ceremony but by a quiet gesture:",
     second: "A kiss on the cheek.",
-    third: "“Welcome to the team.” the President said.",
+    third: "“Welcome to the team.”President Iliescu said.",
   },
   // description:
   //   "Founder of Isabelle Airlines, specializing in executive private aviation consulting for VIP and government clients. Background in aviation strategy, high-level protocol, and international operations. Passionate about precision, confidentiality, and delivering elite travel experiences.",
