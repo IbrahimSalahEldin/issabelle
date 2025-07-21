@@ -3,7 +3,7 @@ import nmaImage from "./assets/images/projects/nmaColl.png";
 import hmazaImage from "./assets/images/projects/hamza (2).png";
 import qnvexImage from "./assets/images/projects/qnvex.png";
 import tripImage from "./assets/images/projects/tripVex.png";
-import mainImg from "./assets/images/main.jpeg";
+import mainImg from "./assets/images/image10.png";
 
 const logotext = "ISABELLE";
 const meta = {
@@ -15,21 +15,20 @@ const meta = {
 const introdata = {
   title: "I’m Isabelle",
   animated: {
-    first: "I’ve served in strategic aviation and diplomacy for over 17 years.",
-    second:
-      "I’ve flown world leaders, managed high-security missions, and trained as a licensed flight instructor.",
-    third:
-      "Now, I lead Isabelle Airlines, offering elite private aviation consultancy worldwide.",
+    first:
+      "Introduced to the President by a Secret Service agent, her first mission began in Malta marked not by ceremony but by a quiet gesture:",
+    second: "A kiss on the cheek.",
+    third: "“Welcome to the team.” the President said.",
   },
-  description:
-    "Founder of Isabelle Airlines, specializing in executive private aviation consulting for VIP and government clients. Background in aviation strategy, high-level protocol, and international operations. Passionate about precision, confidentiality, and delivering elite travel experiences.",
+  // description:
+  //   "Founder of Isabelle Airlines, specializing in executive private aviation consulting for VIP and government clients. Background in aviation strategy, high-level protocol, and international operations. Passionate about precision, confidentiality, and delivering elite travel experiences.",
   your_img_url: mainImg,
 };
 
 const dataabout = {
-  title: "abit about my self",
+  title: "A Bit About Myself",
   aboutme:
-    "Isabelle began her career at the age of 19 with the Ministry of National Defence, where she entered the field of strategic operations and official delegation support. Over the course of 1 years, she served alongside 30 Heads of State, participating in high-level international engagements across diplomatic, defense, and executive contexts. As a licensed flight instructor with over 10,000 flight hours, she demonstrated a deep command of aviation discipline, precision and mission-aligned execution. Over a span of 17 years, Isabelle served under Romanian Presidents Ion Iliescu,Emil Constantinescu, Traian Basescu, Nicolae Vacaroiu involving other 26 Heads of State. As well, she was honoured with a Medal ofHonour – flying troops to war zones and civil war – IRAQ and ANGOLA. Her involvement required strict compliance with diplomatic protocol, movement security and classified coordination standards functioning within frameworks of both political sensitivity and logistical complexity. Following her national service, Isabelle advanced as a political strategist responsible for developing a comprehensive and dynamic plan that aligns with the candidate's vision, members of the Senate and Chamber of Deputies of Romania. Campaign Strategy & Planning Political Positioning & Messaging Advisory to Political Leadership Stakeholder Coordination Supervise security, confidentiality, and reputational containment across events. She is the founder of Isabelle Airlines, a private aviation consultancy serving high-net-worth individuals, political figures.",
+    "Isabelle began her career at the age of 19 with the Ministry of National Defence, where she entered the field of strategic operations and official delegation support. Over the course of 17 years, she served alongside 30 Heads of State, participating in high-level international engagements across diplomatic, defense, and executive contexts. As a licensed flight instructor with over 10,000 flight hours, she demonstrated a deep command of aviation discipline, precision and mission-aligned execution. Over a span of 17 years, Isabelle served under Romanian Presidents Ion Iliescu,Emil Constantinescu, Traian Basescu, Nicolae Vacaroiu involving other 26 Heads of State. As well, she was honoured with a Medal of Honour – flying troops to war zones and civil war – IRAQ and ANGOLA. Her involvement required strict compliance with diplomatic protocol, movement security and classified coordination standards functioning within frameworks of both political sensitivity and logistical complexity. Following her national service, Isabelle advanced as a political strategist responsible for developing a comprehensive and dynamic plan that aligns with the candidate's vision, members of the Senate and Chamber of Deputies of Romania. Campaign Strategy & Planning Political Positioning & Messaging Advisory to Political Leadership Stakeholder Coordination Supervise security, confidentiality, and reputational containment across events. She is the founder of Isabelle Airlines, a private aviation consultancy serving high-net-worth individuals, political figures.",
 };
 const worktimeline = [
   {
@@ -193,7 +192,7 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "info@isabelleairlines.com",
+  YOUR_EMAIL: "sales@isabelleairlines.com",
   YOUR_FONE: "(+971)58 196 9927",
   description:
     "Get in touch for inquiries, collaborations, or to learn more about Isabelle Airlines services.",
