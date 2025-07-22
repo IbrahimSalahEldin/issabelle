@@ -219,7 +219,7 @@ const contactConfig = {
 
 const socialprofils = {
   instagram: "https://www.instagram.com/isabellebadulet?igsh=ZTZuZTQ0NDZzb2Q2/",
-  facebook: "https://facebook.com",
+  facebook: "https://www.facebook.com/profile.php?id=61578715827944",
   linkedin: "https://www.linkedin.com/in/isabelle-airlines-b1a2ba376/",
   twitter: "https://x.com/IsabelleAirline",
 };
